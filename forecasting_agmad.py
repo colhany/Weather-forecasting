@@ -18,7 +18,7 @@ for x in range(15):
     #Construct a dataframe from the values to show it using matplotlib
     stateHistDataframe = pd.DataFrame(stateHistogram, columns = ["Sunny", "Rainy", "Cloudy"])
 
-print("\nsteady state values: (𝜋_0, 𝜋_1, 𝜋_2) = " + str(currentState))
+#print("\nsteady state values: (𝜋_0, 𝜋_1, 𝜋_2) = " + str(currentState))
 stateHistDataframe.plot()
 
 #This part calculates transition matrix after N days
